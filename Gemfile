@@ -2,6 +2,7 @@ source "http://rubygems.org"
 gem 'activemodel'
 gem 'tzinfo'
 gem 'aws-sdk'
+gem 'rails-observers'
 
 # Add dependencies required to use your gem here.
 # Example:
