@@ -8,7 +8,7 @@ module Dynamoid
   module Config
     extend self
     extend Options
-    include ActiveModel::Observing
+< ActiveRecord::Observer
 
     # All the default options.
     option :adapter, :default => 'aws-sdk'
